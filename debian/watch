@@ -1,0 +1,3 @@
+version=3
+opts=pgpsigurlmangle=s/$/.asc/ \
+http://pypi.debian.net/ptyprocess/ptyprocess-(.*)\.tar\.gz

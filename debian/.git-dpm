@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+3bd67ecba62a9b4a5a5263ce2477bfe23b081367
+3bd67ecba62a9b4a5a5263ce2477bfe23b081367
+3bd67ecba62a9b4a5a5263ce2477bfe23b081367
+3bd67ecba62a9b4a5a5263ce2477bfe23b081367
+ptyprocess_0.5.orig.tar.gz
+446083a5f7f9259da00a8f291e1151af05e486c1
+68507
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"

@@ -1,0 +1,42 @@
+Source: ptyprocess
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Julien Puydt <julien.puydt@laposte.net>
+Section: python
+Priority: optional
+Standards-Version: 3.9.8
+Homepage: https://github.com/pexpect/ptyprocess
+Build-Depends: bc, debhelper (>= 9), dh-python, python, python3-all
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.2
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/ptyprocess.git
+Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/ptyprocess.git
+
+Package: python-ptyprocess
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Run a subprocess in a pseudo terminal from Python 2
+ Launch a subprocess in a pseudo terminal (pty), and interact with both
+ the process and its pty.
+ .
+ Sometimes, piping stdin and stdout is not enough. There might be a password
+ prompt that doesn't read from stdin, output that changes when it's going to
+ a pipe rather than a terminal, or curses-style interfaces that rely on a
+ terminal. If you need to automate these things, running the process in a
+ pseudo terminal (pty) is the answer.
+ .
+ This package installs the library for Python 2.
+
+Package: python3-ptyprocess
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Run a subprocess in a pseudo terminal from Python 3
+ Launch a subprocess in a pseudo terminal (pty), and interact with both
+ the process and its pty.
+ .
+ Sometimes, piping stdin and stdout is not enough. There might be a password
+ prompt that doesn't read from stdin, output that changes when it's going to
+ a pipe rather than a terminal, or curses-style interfaces that rely on a
+ terminal. If you need to automate these things, running the process in a
+ pseudo terminal (pty) is the answer.
+ .
+ This package installs the library for Python 3.
