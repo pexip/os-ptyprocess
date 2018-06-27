@@ -1,15 +1,13 @@
 Source: ptyprocess
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Julien Puydt <julien.puydt@laposte.net>
+Uploaders: Julien Puydt <jpuydt@debian.org>
 Section: python
 Priority: optional
-Standards-Version: 3.9.8
+Standards-Version: 4.1.4
 Homepage: https://github.com/pexpect/ptyprocess
-Build-Depends: bc, debhelper (>= 9), dh-python, python, python3-all
-X-Python-Version: >= 2.7
-X-Python3-Version: >= 3.2
-Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/ptyprocess.git
-Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/ptyprocess.git
+Build-Depends: debhelper (>= 11), dh-python, python, python3-all
+Vcs-Git: https://salsa.debian.org/python-team/modules/ptyprocess.git
+Vcs-Browser: https://salsa.debian.org/python-team/modules/ptyprocess
 
 Package: python-ptyprocess
 Architecture: all

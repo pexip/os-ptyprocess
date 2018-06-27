@@ -1,8 +1,39 @@
-ptyprocess (0.5.1-1) unstable; urgency=medium
+ptyprocess (0.6.0-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Fix Format URL to correct one
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+
+  [ Julien Puydt ]
+  * New upstream release.
+  * Refresh packaging:
+    - Use my debian.org mail address.
+    - Bump dh compat to 11. 
+    - Bump std-ver to 4.1.4. 
+    - Bump d/watch to version 4. 
+    - Update dates in d/copyright. 
+    - Remove upstream signing key, as it seems it isn't used (!). 
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 27 Jun 2018 13:11:02 +0200
+
+ptyprocess (0.5.2-1) unstable; urgency=medium
 
   * New upstream release.
+  * Push standards-version to 4.0.0.
+  * Rewrite d/rules as pybuild doesn't support flit.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Mon, 03 Jul 2017 13:38:37 +0200
+
+ptyprocess (0.5.1-1) unstable; urgency=medium
+
+  [Ondřej Nový]
+  * Fixed VCS URL (https)
+
+  [Julien Puydt]
+  * New upstream release.
   * Pushed standards-version up.
-  * Use https in Vcs-* fields.
 
  -- Julien Puydt <julien.puydt@laposte.net>  Fri, 13 May 2016 20:33:18 +0200
 
