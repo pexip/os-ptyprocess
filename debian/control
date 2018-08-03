@@ -1,6 +1,7 @@
 Source: ptyprocess
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Julien Puydt <julien.puydt@laposte.net>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Julien Puydt <julien.puydt@laposte.net>
 Section: python
 Priority: optional
 Standards-Version: 3.9.8
@@ -10,6 +11,7 @@ X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.2
 Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/ptyprocess.git
 Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/ptyprocess.git
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ stretch
 
 Package: python-ptyprocess
 Architecture: all

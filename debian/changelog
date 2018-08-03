@@ -1,3 +1,9 @@
+ptyprocess (0.5.1-1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 03 Aug 2018 16:51:10 +0000
+
 ptyprocess (0.5.1-1) unstable; urgency=medium
 
   * New upstream release.
