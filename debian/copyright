@@ -1,14 +1,14 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ptyprocess
 
 Files: *
 Copyright: 2012, Noah Spurrier <noah@noah.org>
            2013-2014, Pexpect development team
-           2014 Thomas Kluyver <thomas@kluyver.me.uk>
+           2014-2018 Thomas Kluyver <thomas@kluyver.me.uk>
 License: ISC
 
 Files: debian/*
-Copyright: 2015 Julien Puydt <julien.puydt@laposte.net>
+Copyright: 2015-2018 Julien Puydt <jpuydt@debian.org>
 License: ISC
 
 License: ISC
