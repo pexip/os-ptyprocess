@@ -1,28 +1,14 @@
 Source: ptyprocess
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders: Julien Puydt <jpuydt@debian.org>
 Section: python
 Priority: optional
-Standards-Version: 4.1.4
+Standards-Version: 4.5.1
 Homepage: https://github.com/pexpect/ptyprocess
-Build-Depends: debhelper (>= 11), dh-python, python, python3-all
-Vcs-Git: https://salsa.debian.org/python-team/modules/ptyprocess.git
-Vcs-Browser: https://salsa.debian.org/python-team/modules/ptyprocess
-
-Package: python-ptyprocess
-Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
-Description: Run a subprocess in a pseudo terminal from Python 2
- Launch a subprocess in a pseudo terminal (pty), and interact with both
- the process and its pty.
- .
- Sometimes, piping stdin and stdout is not enough. There might be a password
- prompt that doesn't read from stdin, output that changes when it's going to
- a pipe rather than a terminal, or curses-style interfaces that rely on a
- terminal. If you need to automate these things, running the process in a
- pseudo terminal (pty) is the answer.
- .
- This package installs the library for Python 2.
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all
+Rules-Requires-Root: no
+Vcs-Git: https://salsa.debian.org/python-team/packages/ptyprocess.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/ptyprocess
 
 Package: python3-ptyprocess
 Architecture: all
