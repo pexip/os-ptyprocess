@@ -9,7 +9,7 @@ Homepage: https://github.com/pexpect/ptyprocess
 Build-Depends: debhelper (>= 11), dh-python, python, python3-all
 Vcs-Git: https://salsa.debian.org/python-team/modules/ptyprocess.git
 Vcs-Browser: https://salsa.debian.org/python-team/modules/ptyprocess
-XS-Pexip-Upstream: http://ftp.debian.org/debian/ buster
+XS-Pexip-Upstream: http://deb.debian.org/debian/ bullseye
 
 Package: python-ptyprocess
 Architecture: all
