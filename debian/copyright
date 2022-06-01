@@ -8,7 +8,7 @@ Copyright: 2012, Noah Spurrier <noah@noah.org>
 License: ISC
 
 Files: debian/*
-Copyright: 2015-2018 Julien Puydt <jpuydt@debian.org>
+Copyright: 2015-2020 Julien Puydt <jpuydt@debian.org>
 License: ISC
 
 License: ISC
@@ -21,4 +21,3 @@ License: ISC
  DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
  WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
  OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
