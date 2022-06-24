@@ -1,3 +1,9 @@
+ptyprocess (0.7.0-1pexip2) pexip-bullseye; urgency=medium
+
+  * Main bullseye build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Fri, 24 Jun 2022 14:04:12 +0100
+
 ptyprocess (0.7.0-1pexip1) pexip; urgency=medium
 
   * Initial bullseye build
