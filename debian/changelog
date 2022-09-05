@@ -1,3 +1,9 @@
+ptyprocess (0.7.0-1pexip3) pexip-bullseye; urgency=medium
+
+  * Bullseye rebuild for ARM64 inclusion
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 05 Sep 2022 10:35:05 +0100
+
 ptyprocess (0.7.0-1pexip2) pexip-bullseye; urgency=medium
 
   * Main bullseye build
