@@ -1,3 +1,35 @@
+ptyprocess (0.7.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * d/control: Build using the generic pyproject pybuild plugin.
+  * d/tests: run tests with all available python versions.
+
+ -- Louis-Philippe Véronneau <pollo@debian.org>  Fri, 02 Dec 2022 11:58:33 -0500
+
+ptyprocess (0.7.0-4) UNRELEASED; urgency=medium
+
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 30 Nov 2022 12:31:25 -0000
+
+ptyprocess (0.7.0-3) unstable; urgency=medium
+
+  [ Scott Kitterman ]
+  * Add flit to build-depends so flit plugin for pybuild is used and delete
+    obsolete portions of debian/rules
+
+  [ Julien Puydt ]
+  * Prepare for upload, noticing SK's changes fix a bug. (Closes: #1000260)
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 03 Dec 2021 13:20:05 +0100
+
+ptyprocess (0.7.0-2) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump std-vers to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 19 Aug 2021 11:07:50 +0200
+
 ptyprocess (0.7.0-1) unstable; urgency=medium
 
   * New upstream release.

@@ -1,2 +1,2 @@
 Tests: upstreamtestsuite3
-Depends: python3-ptyprocess, python3-pytest
+Depends: python3-all, python3-pytest, @
