@@ -10,7 +10,7 @@ Build-Depends: debhelper-compat (= 13), dh-python, python3-all
 Rules-Requires-Root: no
 Vcs-Git: https://salsa.debian.org/python-team/packages/ptyprocess.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/ptyprocess
-XS-Pexip-Upstream: http://deb.debian.org/debian/ bullseye
+XS-Pexip-Upstream: http://deb.debian.org/debian/ bookworm
 
 Package: python3-ptyprocess
 Architecture: all
