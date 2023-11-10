@@ -1,3 +1,12 @@
 #!/bin/sh
-set -e
-pytest-3 tests 2>1
+set -efu
+
+pys="$(py3versions -s 2> /dev/null)"
+
+cp -a tests "$AUTOPKGTEST_TMP"
+cd "$AUTOPKGTEST_TMP"
+
+for py in $pys; do
+	echo "=== $py ==="
+	$py -m pytest -v tests
+done

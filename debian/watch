@@ -1,2 +1,2 @@
 version=4
-https://github.com/pexpect/ptyprocess/tags .*/archive/(.*)\.tar\.gz
+https://github.com/pexpect/ptyprocess/tags .*/(.*)\.tar\.gz
