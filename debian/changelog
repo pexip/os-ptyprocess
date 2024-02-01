@@ -1,3 +1,9 @@
+ptyprocess (0.7.0-5+pexip24u3) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:17:35 +0000
+
 ptyprocess (0.7.0-5pexip2) pexip-bookworm; urgency=medium
 
   * Bookworm build for product distribution
